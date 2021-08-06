@@ -1,0 +1,7 @@
+Nhân viên :
+           tk : halinh01
+           pass: 123
+
+Quản lí:  
+          tk: tranvinh01
+           pass: 123  

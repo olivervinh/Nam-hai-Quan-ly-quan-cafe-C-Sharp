@@ -1,0 +1,6 @@
+D:\c#_project_2019\QuanLyQuanCoffee\DTO\bin\Release\DTO.dll
+D:\c#_project_2019\QuanLyQuanCoffee\DTO\bin\Release\DTO.pdb
+D:\c#_project_2019\QuanLyQuanCoffee\DTO\obj\Release\DTO.dll
+D:\c#_project_2019\QuanLyQuanCoffee\DTO\obj\Release\DTO.pdb
+D:\c#_project_2019\QuanLyQuanCoffee\DTO\obj\Release\DTO.csprojAssemblyReference.cache
+D:\c#_project_2019\QuanLyQuanCoffee\DTO\obj\Release\DTO.csproj.CoreCompileInputs.cache

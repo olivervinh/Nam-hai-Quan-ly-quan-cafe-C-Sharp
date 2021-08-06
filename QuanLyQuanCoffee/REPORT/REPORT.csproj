@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9426DB9A-C28B-4EF1-ABB5-51F1D92EF227}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>REPORT</RootNamespace>
+    <AssemblyName>REPORT</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\LTWIN\LT.Wins_18.6\Add reference\Microsoft.ReportViewer.11.0.3366.16\lib\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.DataVisualization, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\LTWIN\LT.Wins_18.6\Add reference\Microsoft.ReportViewer.11.0.3366.16\lib\Microsoft.ReportViewer.WinForms.DLL</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="REPORT_BAN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="REPORT_BAN.Designer.cs">
+      <DependentUpon>REPORT_BAN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="REPORT_HOADON.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="REPORT_HOADON.Designer.cs">
+      <DependentUpon>REPORT_HOADON.cs</DependentUpon>
+    </Compile>
+    <Compile Include="REPORT_Loaithucan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="REPORT_Loaithucan.Designer.cs">
+      <DependentUpon>REPORT_Loaithucan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="REPORT_NHANVIEN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="REPORT_NHANVIEN.Designer.cs">
+      <DependentUpon>REPORT_NHANVIEN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="quanliquancoffee50DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>quanliquancoffee50DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="REPORT_THUCAN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="REPORT_THUCAN.Designer.cs">
+      <DependentUpon>REPORT_THUCAN.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Report1.rdlc" />
+    <EmbeddedResource Include="REPORT_Ban.rdlc" />
+    <EmbeddedResource Include="REPORT_BAN.resx">
+      <DependentUpon>REPORT_BAN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REPORT_HOADON.resx">
+      <DependentUpon>REPORT_HOADON.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REPORT_loaithucan.rdlc" />
+    <EmbeddedResource Include="REPORT_Loaithucan.resx">
+      <DependentUpon>REPORT_Loaithucan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REPORT_NHANVIEN.resx">
+      <DependentUpon>REPORT_NHANVIEN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="REPORTNhanVien.rdlc" />
+    <EmbeddedResource Include="REPORT_ThucAn.rdlc" />
+    <EmbeddedResource Include="REPORT_THUCAN.resx">
+      <DependentUpon>REPORT_THUCAN.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="quanliquancoffee50DataSet.xsc">
+      <DependentUpon>quanliquancoffee50DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="quanliquancoffee50DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>quanliquancoffee50DataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="quanliquancoffee50DataSet.xss">
+      <DependentUpon>quanliquancoffee50DataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

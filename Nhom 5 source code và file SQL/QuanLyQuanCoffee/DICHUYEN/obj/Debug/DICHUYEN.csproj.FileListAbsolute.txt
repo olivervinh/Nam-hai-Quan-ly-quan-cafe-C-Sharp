@@ -1,0 +1,11 @@
+D:\c#_project_2019\QuanLyQuanCoffee\DICHUYEN\bin\Debug\DICHUYEN.exe.config
+D:\c#_project_2019\QuanLyQuanCoffee\DICHUYEN\bin\Debug\DICHUYEN.exe
+D:\c#_project_2019\QuanLyQuanCoffee\DICHUYEN\bin\Debug\DICHUYEN.pdb
+D:\c#_project_2019\QuanLyQuanCoffee\DICHUYEN\bin\Debug\REPORT.exe
+D:\c#_project_2019\QuanLyQuanCoffee\DICHUYEN\bin\Debug\REPORT.pdb
+D:\c#_project_2019\QuanLyQuanCoffee\DICHUYEN\obj\Debug\DICHUYEN.csprojResolveAssemblyReference.cache
+D:\c#_project_2019\QuanLyQuanCoffee\DICHUYEN\obj\Debug\DICHUYEN.Form1.resources
+D:\c#_project_2019\QuanLyQuanCoffee\DICHUYEN\obj\Debug\DICHUYEN.Properties.Resources.resources
+D:\c#_project_2019\QuanLyQuanCoffee\DICHUYEN\obj\Debug\DICHUYEN.csproj.GenerateResource.Cache
+D:\c#_project_2019\QuanLyQuanCoffee\DICHUYEN\obj\Debug\DICHUYEN.exe
+D:\c#_project_2019\QuanLyQuanCoffee\DICHUYEN\obj\Debug\DICHUYEN.pdb

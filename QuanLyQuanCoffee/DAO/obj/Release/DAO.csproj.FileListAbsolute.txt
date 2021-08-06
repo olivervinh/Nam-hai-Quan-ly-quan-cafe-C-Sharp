@@ -1,0 +1,10 @@
+D:\c#_project_2019\QuanLyQuanCoffee\DAO\bin\Release\DAO.dll.config
+D:\c#_project_2019\QuanLyQuanCoffee\DAO\bin\Release\DAO.dll
+D:\c#_project_2019\QuanLyQuanCoffee\DAO\bin\Release\DAO.pdb
+D:\c#_project_2019\QuanLyQuanCoffee\DAO\bin\Release\DTO.dll
+D:\c#_project_2019\QuanLyQuanCoffee\DAO\bin\Release\DTO.pdb
+D:\c#_project_2019\QuanLyQuanCoffee\DAO\obj\Release\DAO.dll
+D:\c#_project_2019\QuanLyQuanCoffee\DAO\obj\Release\DAO.pdb
+D:\c#_project_2019\QuanLyQuanCoffee\DAO\obj\Release\DAO.csprojAssemblyReference.cache
+D:\c#_project_2019\QuanLyQuanCoffee\DAO\obj\Release\DAO.csproj.CoreCompileInputs.cache
+D:\c#_project_2019\QuanLyQuanCoffee\DAO\obj\Release\DAO.csproj.CopyComplete

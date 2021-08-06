@@ -1,0 +1,292 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9A870941-7E9C-4959-853C-E01712BA466C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>QuanLyQuanCoffee</RootNamespace>
+    <AssemblyName>QuanLyQuanCoffee</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Win32Resource>
+    </Win32Resource>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevComponents.DotNetBar2, Version=11.2.0.1, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\LTWIN\LT.Wins_18.6\Add reference\Microsoft.ReportViewer.11.0.3366.16\lib\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.DataVisualization, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\LTWIN\LT.Wins_18.6\Add reference\Microsoft.ReportViewer.11.0.3366.16\lib\Microsoft.ReportViewer.DataVisualization.DLL</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\LTWIN\LT.Wins_18.6\Add reference\Microsoft.ReportViewer.11.0.3366.16\lib\Microsoft.ReportViewer.WinForms.DLL</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\LTWIN\LT.Wins_18.6\Add reference\Microsoft.SqlServer.Types.11.0.1\lib\net20\Microsoft.SqlServer.Types.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmCha.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCha.Designer.cs">
+      <DependentUpon>frmCha.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmChiTietHoaDonvaHoaDon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmChiTietHoaDonvaHoaDon.Designer.cs">
+      <DependentUpon>frmChiTietHoaDonvaHoaDon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAdmin.Designer.cs">
+      <DependentUpon>frmAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDangNhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDangNhap.Designer.cs">
+      <DependentUpon>frmDangNhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="quanliquancoffee50DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>quanliquancoffee50DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="REPORT_HOADON.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="REPORT_HOADON.Designer.cs">
+      <DependentUpon>REPORT_HOADON.cs</DependentUpon>
+    </Compile>
+    <Compile Include="taoBaoCaoReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="taoBaoCaoReport.Designer.cs">
+      <DependentUpon>taoBaoCaoReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wellcome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Wellcome.Designer.cs">
+      <DependentUpon>Wellcome.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="frmCha.resx">
+      <DependentUpon>frmCha.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmChiTietHoaDonvaHoaDon.resx">
+      <DependentUpon>frmChiTietHoaDonvaHoaDon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAdmin.resx">
+      <DependentUpon>frmAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDangNhap.resx">
+      <DependentUpon>frmDangNhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Report1.rdlc" />
+    <EmbeddedResource Include="REPORT_HOADON.resx">
+      <DependentUpon>REPORT_HOADON.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="taoBaoCaoReport.resx">
+      <DependentUpon>taoBaoCaoReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wellcome.resx">
+      <DependentUpon>Wellcome.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="quanliquancoffee50DataSet.xsc">
+      <DependentUpon>quanliquancoffee50DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="quanliquancoffee50DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>quanliquancoffee50DataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="quanliquancoffee50DataSet.xss">
+      <DependentUpon>quanliquancoffee50DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\background_coffee.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Me-linh-cafe-Da-Lat-ngon-va-view-dep-nhat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coffee-692560.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nhnvien.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pass.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pass %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wievcafe.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nv.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\employee.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\employee %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\employee %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\waiter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\factory.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\admin-ui.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BUS\BUS.csproj">
+      <Project>{3d12e22e-5924-438f-aed3-b57f51d6e623}</Project>
+      <Name>BUS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DAO\DAO.csproj">
+      <Project>{274F316C-4B37-42EA-9FAC-4437812C7930}</Project>
+      <Name>DAO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DTO\DTO.csproj">
+      <Project>{843bf67a-ebb5-454f-a946-3f748a382aeb}</Project>
+      <Name>DTO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\REPORT\REPORT.csproj">
+      <Project>{9426db9a-c28b-4ef1-abb5-51f1d92ef227}</Project>
+      <Name>REPORT</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kinhlup.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sting.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coca.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trasua.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tradao.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cofeesua.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cofedaden.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\banhmi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\comtam.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coffee-90604.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coffee-shop-929101.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coffee-2631739.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coffee-shop-9291011.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coffee-shop-1154289.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coffee-906041.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\them.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

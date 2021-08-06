@@ -1,0 +1,12 @@
+D:\c#_project_2019\QuanLyQuanCoffee\BUS\bin\Debug\BUS.dll
+D:\c#_project_2019\QuanLyQuanCoffee\BUS\bin\Debug\BUS.pdb
+D:\c#_project_2019\QuanLyQuanCoffee\BUS\bin\Debug\DAO.dll
+D:\c#_project_2019\QuanLyQuanCoffee\BUS\bin\Debug\DTO.dll
+D:\c#_project_2019\QuanLyQuanCoffee\BUS\bin\Debug\DAO.pdb
+D:\c#_project_2019\QuanLyQuanCoffee\BUS\bin\Debug\DTO.pdb
+D:\c#_project_2019\QuanLyQuanCoffee\BUS\obj\Debug\BUS.dll
+D:\c#_project_2019\QuanLyQuanCoffee\BUS\obj\Debug\BUS.pdb
+D:\c#_project_2019\QuanLyQuanCoffee\BUS\bin\Debug\DAO.dll.config
+D:\c#_project_2019\QuanLyQuanCoffee\BUS\obj\Debug\BUS.csprojAssemblyReference.cache
+D:\c#_project_2019\QuanLyQuanCoffee\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+D:\c#_project_2019\QuanLyQuanCoffee\BUS\obj\Debug\BUS.csproj.CopyComplete
